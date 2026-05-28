@@ -6,11 +6,9 @@ class DetailsScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(appBar: AppBar(),
-    body: ListView(
-      children: [
-        Container(decoration: BoxDecoration(image: ),)
-      ],
-    ),);
+    return Scaffold(
+      appBar: AppBar(),
+      body: ListView(children: [Text("data")]),
+    );
   }
 }
